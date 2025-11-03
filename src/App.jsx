@@ -4,8 +4,19 @@ import Favorites from "./pages/Favorites";
 import Cart from "./pages/Cart";
 import Details from "./pages/Details";
 import Navbar from "./components/Navbar";
+import Loading from "./components/Loading";
+import { useEffect, useState } from "react";
 
 const App = () => {
+    const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // 0.5 sekunddan keyin loadingni o‘chiradi
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) return <Loading />;
   return (
     <Router>
       <Navbar />
