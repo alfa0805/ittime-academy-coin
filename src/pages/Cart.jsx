@@ -1,6 +1,7 @@
 import { useStore } from "../context/StoreContext";
 import CartItem from "../components/CartItem";
 import { Link } from "react-router-dom";
+import ModalForm from "../components/ModalForm";
 
 const Cart = () => {
   const { cart, removeFromCart } = useStore();
@@ -24,7 +25,7 @@ const Cart = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h2 className="text-2xl font-semibold mb-6 text-center">
+      <h2 className="text-2xl text-white font-semibold mb-6 text-center">
         Sizning korzinkangiz 🛍️
       </h2>
       <div className="space-y-4">
@@ -33,10 +34,11 @@ const Cart = () => {
         ))}
       </div>
       <div className="flex justify-between items-center mt-8 border-t pt-4">
-        <h3 className="text-lg font-semibold">
+        <h3 className="text-lg text-white font-semibold">
           Jami:{" "}
-          <span className="text-yellow-600 font-bold">{totalCoins} coin</span>
+          <span className="text-yellow-500 font-bold">{totalCoins} coin</span>
         </h3>
+        <ModalForm cart={cart} totalCoins={totalCoins} />
       </div>
     </div>
   );

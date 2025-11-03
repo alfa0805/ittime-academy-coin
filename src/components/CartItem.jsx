@@ -1,3 +1,5 @@
+import { HiArchiveBoxXMark } from "react-icons/hi2";
+
 const CartItem = ({ item, onRemove }) => {
   return (
     <div className="flex justify-between items-center bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition">
@@ -9,16 +11,20 @@ const CartItem = ({ item, onRemove }) => {
         />
         <div>
           <p className="font-semibold text-gray-800">{item.name}</p>
-          <p className="text-yellow-600 font-medium text-sm">{item.coin} coin</p>
+          <p className="text-yellow-500 font-medium text-sm">{item.coin} coin</p>
         </div>
       </div>
-
+      <div className="">
       <button
         onClick={() => onRemove(item.id)}
         className="text-red-500 hover:text-red-700 font-semibold"
       >
-        O‘chirish ✖
+        <HiArchiveBoxXMark />
       </button>
+          
+
+      </div>
+
     </div>
   );
 };

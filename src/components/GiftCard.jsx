@@ -12,7 +12,7 @@ const GiftCard = ({ id, name, coin, images }) => {
   const inCart = cart.some((c) => c.id === id);
 
   return (
-    <div className="relative cursor-pointer w-full max-w-sm mx-auto rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.04] hover:shadow-[0_0_20px_rgba(0,191,255,0.5)] bg-gradient-to-br from-[#b4b7be] to-[#2d3861] text-white border border-slate-700">
+    <div className="relative h-[380px] cursor-pointer w-full max-w-sm mx-auto rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.04] hover:shadow-[0_0_20px_rgba(0,191,255,0.5)] bg-gradient-to-br from-[#b4b7be] to-[#2d3861] text-white border border-slate-700">
       {/* LIKE ICON */}
       <button
         onClick={(e) => {
@@ -43,7 +43,7 @@ const GiftCard = ({ id, name, coin, images }) => {
       {/* IMAGE */}
       <div
         onClick={() => navigate(`/details/${id}`)}
-        className="relative  w-full flex items-center justify-center h-64 overflow-hidden"
+        className="relative  w-full flex items-center justify-center h-[250px] overflow-hidden"
       >
         <img
           src={images[0]}
@@ -53,8 +53,8 @@ const GiftCard = ({ id, name, coin, images }) => {
       </div>
 
       {/* INFO */}
-      <div className="p-4 flex flex-col gap-3">
-        <h2 className="text-lg sm:text-xl font-semibold text-white tracking-wide">
+      <div className="p-4 flex h-[130px] flex-col justify-between gap-3">
+        <h2 className="text-md sm:text-lg leading-[20px] font-semibold text-white tracking-wide">
           {name}
         </h2>
 

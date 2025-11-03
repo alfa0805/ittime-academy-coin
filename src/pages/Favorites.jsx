@@ -9,7 +9,7 @@ const Favorites = () => {
     return (
       <div className="flex flex-col items-center justify-center mt-20">
         <img src="/empty-fav.png" alt="empty" className="w-52 h-52 mb-4" />
-        <h2 className="text-xl font-semibold text-gray-600">
+        <h2 className="text-xl font-semibold text-white">
           Hozircha yoqtirilgan mahsulot yo‘q ❤️
         </h2>
         <Link
@@ -23,7 +23,7 @@ const Favorites = () => {
 
   return (
     <div className="max-w-5xl mx-auto p-6">
-      <h2 className="text-2xl font-semibold mb-6 text-center">
+      <h2 className="text-2xl font-semibold text-white mb-6 text-center">
         Yoqtirilgan mahsulotlar ❤️
       </h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -32,7 +32,7 @@ const Favorites = () => {
           return (
             <div
               key={item.id}
-              className="bg-white shadow-lg rounded-xl p-4 flex flex-col justify-between hover:shadow-xl transition"
+              className="bg-gradient-to-br from-[#b4b7be] to-[#2d3861] text-white shadow-lg rounded-xl p-4 flex flex-col justify-between hover:shadow-xl transition"
             >
               <img
                 src={item.images[0]}
