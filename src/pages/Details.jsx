@@ -34,15 +34,15 @@ const Details = () => {
   const inCart = cart.some((c) => c.id === product.id);
 
   return (
-    <div className="max-w-6xl mx-auto p-6">
-      <Link
+    <div className="max-w-6xl mx-auto p-3 md:p-5">
+      {/* <Link
         to="/"
-        className="inline-block mb-6 text-blue-600 hover:underline font-medium"
+        className="inline-block mb-6 pt-[50px] text-blue-600 hover:underline font-medium"
       >
         ← Orqaga qaytish
-      </Link>
+      </Link> */}
 
-      <div className="grid md:grid-cols-2 gap-10 bg-white shadow-lg rounded-xl p-6 relative">
+      <div className="grid md:grid-cols-2 mt-[70px] md:mt-[38px] gap-10 bg-white shadow-lg rounded-xl p-6 relative">
         {/* Like ikonkasi tepada */}
         {/* Chap tomonda rasm qismi */}
         <div className="flex flex-col items-center">

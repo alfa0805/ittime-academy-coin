@@ -7,7 +7,7 @@ const Favorites = () => {
 
   if (liked.length === 0)
     return (
-      <div className="flex flex-col items-center justify-center mt-20">
+      <div className="flex flex-col items-center justify-center">
         <img src="/empty-fav.png" alt="empty" className="w-52 h-52 mb-4" />
         <h2 className="text-xl font-semibold text-white">
           Hozircha yoqtirilgan mahsulot yo‘q ❤️
@@ -22,8 +22,8 @@ const Favorites = () => {
     );
 
   return (
-    <div className="max-w-5xl mx-auto p-6">
-      <h2 className="text-2xl font-semibold text-white mb-6 text-center">
+    <div className="max-w-5xl mx-auto ">
+      <h2 className="text-2xl font-semibold text-white pt-[70px] mb-6 text-center">
         Yoqtirilgan mahsulotlar ❤️
       </h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

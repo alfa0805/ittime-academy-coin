@@ -83,15 +83,15 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
       {/* --- Sotib olish tugmasi --- */}
       <button
         onClick={() => setIsModalOpen(true)}
-        className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition-all duration-300"
+        className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white px-4 py-2 rounded-lg shadow-lg hover:shadow-cyan-400/50 transition-all hover:scale-105 duration-300"
       >
         Sotib olish
       </button>
 
       {/* --- Modal --- */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 backdrop-blur-sm animate-fadeIn">
-          <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative animate-slideUp">
+        <div className="fixed mt-[60px] inset-0 bg-black/40 flex items-center justify-center z-50 backdrop-blur-sm animate-fadeIn">
+          <div className="bg-white shadow-lg w-full max-w-md h-[500px] p-6 relative animate-slideUp overflow-auto overscroll-y-auto">
             <button
               onClick={() => setIsModalOpen(false)}
               className="absolute top-2 right-3 text-2xl font-bold text-gray-500 hover:text-gray-700"
@@ -163,7 +163,7 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
 
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-all duration-300"
+                className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-2 rounded-md shadow-lg hover:shadow-cyan-400/50 transition-all hover:scale-103 duration-300"
               >
                 Yuborish
               </button>

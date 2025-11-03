@@ -11,7 +11,7 @@ const Home = () => {
   );
 
   return (
-    <div className="p-6">
+    <div className=" p-3 md:p-5">
       <SearchBar search={search} setSearch={setSearch} />
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mt-6">

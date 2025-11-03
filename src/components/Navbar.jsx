@@ -10,7 +10,7 @@ const Navbar = () => {
     location.pathname === path ? "text-blue-600 font-bold" : "text-gray-700";
 
   return (
-    <nav className="shadow-md bg-gradient-to-br from-[#b4b7be] to-[#2d3861]  backdrop-blur-sm  shadow-[#1824a575] py-3 px-6 flex justify-between items-center sticky top-0 z-50">
+    <nav className="fixed z-100 w-full shadow-md bg-gradient-to-br from-[#b4b7be] to-[#2d3861]  backdrop-blur-sm  shadow-[#1824a575] py-3 px-6 flex justify-between items-center">
       <Link to="/" className="text-xl font-bold text-blue-600">
         Coin Market 🪙
       </Link>
