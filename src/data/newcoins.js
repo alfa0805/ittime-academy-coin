@@ -8,7 +8,7 @@ export const gifts = [
   {
     id: 2,
     name: "Smartfon tagliki",
-    coin: 30,
+    coin: 50,
     images: [
       "/coins/smartfon_tutgichi/img1.jpg",
       "/coins/smartfon_tutgichi/img2.jpg",
@@ -30,7 +30,7 @@ export const gifts = [
   {
     id: 4,
     name: "Kompyuter Kuller",
-    coin: 200,
+    coin: 428,
     images: [
       "/coins/kamyuter_kuller/img1.jpg",
       "/coins/kamyuter_kuller/img2.jpg",
@@ -41,7 +41,7 @@ export const gifts = [
   {
     id: 5,
     name: "Yopishtiriladigan Stiker",
-    coin: 16,
+    coin: 40,
     images: [
       "/coins/stiker/img1.jpg",
       "/coins/stiker/img2.jpg",
@@ -52,7 +52,7 @@ export const gifts = [
   {
     id: 6,
     name: "Brend Kepka",
-    coin: 80,
+    coin: 160,
     images: [
       "/coins/kepka/img1.jpg",
       "/coins/kepka/img2.jpg",
@@ -61,42 +61,9 @@ export const gifts = [
     ],
   },
   {
-    id: 42,
-    name: "WiFi Adapter",
-    coin: 30,
-    images: [
-      "/coins/wifi_adapter/img1.jpg",
-      "/coins/wifi_adapter/img2.jpg",
-      "/coins/wifi_adapter/img3.jpg",
-      "/coins/wifi_adapter/img4.jpg",
-    ],
-  },
-  {
-    id: 41,
-    name: "Shtativ",
-    coin: 25,
-    images: [
-      "/coins/shtativ/img1.jpg",
-      "/coins/shtativ/img2.jpg",
-      "/coins/shtativ/img3.jpg",
-      "/coins/shtativ/img4.jpg",
-    ],
-  },
-  {
-    id: 43,
-    name: "Simsiz bluetooth, bo'yinbog'li",
-    coin: 80,
-    images: [
-      "/coins/noushnik_boyinbogli/img1.jpg",
-      "/coins/noushnik_boyinbogli/img2.jpg",
-      "/coins/noushnik_boyinbogli/img3.jpg",
-      "/coins/noushnik_boyinbogli/img4.jpg",
-    ],
-  },
-  {
     id: 7,
     name: "Sichqoncha: Metoo E0 2,4G",
-    coin: 50,
+    coin: 135,
     images: [
       "/coins/sichqoncha_metooe3/img1.jpg",
       "/coins/sichqoncha_metooe3/img2.jpg",
@@ -106,7 +73,7 @@ export const gifts = [
   {
     id: 8,
     name: "Brend Termiz",
-    coin: 70,
+    coin: 135,
     images: [
       "/coins/termiz/img1.jpg",
       "/coins/termiz/img2.jpg",
@@ -116,13 +83,13 @@ export const gifts = [
   {
     id: 9,
     name: "Fleshka 4gb",
-    coin: 40,
+    coin: 100,
     images: ["/coins/fleshka/img1.jpg"],
   },
   {
     id: 10,
     name: "sichqonchasi iMICE GWX-7 3200",
-    coin: 120,
+    coin: 410,
     images: [
       "/coins/sichqoncha_game/img1.jpg",
       "/coins/sichqoncha_game/img2.jpg",
@@ -131,20 +98,9 @@ export const gifts = [
     ],
   },
   {
-    id: 44,
-    name: "Porlovchi nakleyka",
-    coin: 50,
-    images: [
-      "/coins/porlovchi_nakleyka/img1.jpg",
-      "/coins/porlovchi_nakleyka/img2.jpg",
-      "/coins/porlovchi_nakleyka/img3.jpg",
-      "/coins/porlovchi_nakleyka/img4.jpg",
-    ],
-  },
-  {
     id: 11,
     name: "Klaviatura:AVT KBM 302,KBM..",
-    coin: 70,
+    coin: 162,
     images: [
       "/coins/klaviatura_avt/img1.jpg",
       "/coins/klaviatura_avt/img2.jpg",
@@ -155,7 +111,7 @@ export const gifts = [
   {
     id: 12,
     name: "Achki",
-    coin: 50,
+    coin: 250,
     images: [
       "/coins/achki/img1.jpg",
       "/coins/achki/img2.jpg",
@@ -166,7 +122,7 @@ export const gifts = [
   {
     id: 13,
     name: "AirPods Pro",
-    coin: 100,
+    coin: 175,
     images: [
       "/coins/airpots_pro/img1.jpg",
       "/coins/airpots_pro/img2.jpg",
@@ -177,7 +133,7 @@ export const gifts = [
   {
     id: 14,
     name: "Keyboard+Mouse",
-    coin: 100,
+    coin: 225,
     images: [
       "/coins/movies_klavush/img1.jpg",
       "/coins/movies_klavush/img2.jpg",
@@ -187,8 +143,8 @@ export const gifts = [
   },
   {
     id: 15,
-    name: "Bmw rasmi tushirilgan kiyim",
-    coin: 90,
+    name: "Brend kiyim",
+    coin: 117,
     images: [
       "/coins/brend_kiyim/img1.jpg",
       "/coins/brend_kiyim/img2.jpg",
@@ -198,7 +154,7 @@ export const gifts = [
   {
     id: 16,
     name: "AirPods Max",
-    coin: 50,
+    coin: 102,
     images: [
       "/coins/airpots_max/img1.jpg",
       "/coins/airpots_max/img2.jpg",
@@ -208,7 +164,7 @@ export const gifts = [
   {
     id: 17,
     name: "iPhone Pro Max",
-    coin: 3500,
+    coin: 2500,
     images: [
       "/coins/iphone/img1.jpg",
       "/coins/iphone/img2.jpg",
@@ -218,7 +174,7 @@ export const gifts = [
   {
     id: 18,
     name: "Keyboard:T-Wolf TF270",
-    coin: 135,
+    coin: 337,
     images: [
       "/coins/klaviatura_game/img1.jpg",
       "/coins/klaviatura_game/img2.jpg",
@@ -227,31 +183,9 @@ export const gifts = [
     ],
   },
   {
-    id: 45,
-    name: "Simsiz katta karnay",
-    coin: 200,
-    images: [
-      "/coins/katta_karnay/img1.jpg",
-      "/coins/katta_karnay/img2.jpg",
-      "/coins/katta_karnay/img3.jpg",
-      "/coins/katta_karnay/img4.jpg",
-    ],
-  },
-  {
-    id: 46,
-    name: "Simsiz quloqchilar",
-    coin: 200,
-    images: [
-      "/coins/simsiz_quloqchin/img1.jpg",
-      "/coins/simsiz_quloqchin/img2.jpg",
-      "/coins/simsiz_quloqchin/img3.jpg",
-      "/coins/simsiz_quloqchin/img4.jpg",
-    ],
-  },
-  {
     id: 19,
     name: "Brand Sumka",
-    coin: 200,
+    coin: 422,
     images: [
       "/coins/somka/img1.jpg",
       "/coins/somka/img2.jpg",
@@ -260,20 +194,9 @@ export const gifts = [
     ],
   },
   {
-    id: 47,
-    name: "Bluetooth kalonka",
-    coin: 100,
-    images: [
-      "/coins/protativ_kalonka/img1.jpg",
-      "/coins/protativ_kalonka/img2.jpg",
-      "/coins/protativ_kalonka/img3.jpg",
-      "/coins/protativ_kalonka/img4.jpg",
-    ],
-  },
-  {
     id: 20,
     name: "PowerBank:20 000 mA/h22.5W",
-    coin: 100,
+    coin: 312,
     images: [
       "/coins/poverbank/img1.jpg",
       "/coins/poverbank/img2.jpg",
@@ -284,7 +207,7 @@ export const gifts = [
   {
     id: 21,
     name: "Smartwatch",
-    coin: 75,
+    coin: 372,
     images: [
       "/coins/smartwatch/img1.jpg",
       "/coins/smartwatch/img2.jpg",
@@ -295,7 +218,7 @@ export const gifts = [
   {
     id: 22,
     name: "Huawei Nova Y72",
-    coin: 1600,
+    coin: 1900,
     images: [
       "/coins/huawe_telefon/img1.jpg",
       "/coins/huawe_telefon/img2.jpg",
@@ -324,19 +247,19 @@ export const gifts = [
   {
     id: 26,
     name: "Mukammal Dasturlash:HTML/CSS",
-    coin: 65,
+    coin: 162,
     images: ["/coins/books/book2.jpg"],
   },
   {
     id: 27,
     name: "Mukammal Dasturlash:JavaScript",
-    coin: 65,
+    coin: 162,
     images: ["/coins/books/book1.jpg"],
   },
   {
     id: 28,
     name: "Blocknot",
-    coin: 60,
+    coin: 172,
     images: [
       "/coins/blocknoot/img1.jpg",
       "/coins/blocknoot/img2.jpg",
@@ -358,7 +281,7 @@ export const gifts = [
   {
     id: 30,
     name: "Mikrofon:K8/K9",
-    coin: 120,
+    coin: 322,
     images: [
       "/coins/mikrafon_k8/img1.jpg",
       "/coins/mikrafon_k8/img2.jpg",
@@ -369,7 +292,7 @@ export const gifts = [
   {
     id: 31,
     name: "Mikrofon",
-    coin: 320,
+    coin: 497,
     images: [
       "/coins/mikrafon/img1.jpg",
       "/coins/mikrafon/img2.jpg",
@@ -380,7 +303,7 @@ export const gifts = [
   {
     id: 32,
     name: "Shaxmat yog'och doskali",
-    coin: 30,
+    coin: 147,
     images: [
       "/coins/shaxmat_yogoch/img1.jpg",
       "/coins/shaxmat_yogoch/img2.jpg",
@@ -391,7 +314,7 @@ export const gifts = [
   {
     id: 33,
     name: "Shaxmat Magnitli",
-    coin: 90,
+    coin: 247,
     images: [
       "/coins/shaxmat_magnit/img1.jpg",
       "/coins/shaxmat_magnit/img2.jpg",
@@ -402,7 +325,7 @@ export const gifts = [
   {
     id: 34,
     name: "Selfie",
-    coin: 45,
+    coin: 92,
     images: [
       "/coins/selfi/img1.jpg",
       "/coins/selfi/img2.jpg",
@@ -413,7 +336,7 @@ export const gifts = [
   {
     id: 35,
     name: "Noutbook",
-    coin: 2000,
+    coin: 2200,
     images: [
       "/coins/noutbook/img1.jpg",
       "/coins/noutbook/img2.jpg",
@@ -424,7 +347,7 @@ export const gifts = [
   {
     id: 36,
     name: "Monitor",
-    coin: 1300,
+    coin: 2000,
     images: [
       "/coins/monitor/img1.jpg",
       "/coins/monitor/img2.jpg",
@@ -434,7 +357,7 @@ export const gifts = [
   {
     id: 37,
     name: "Noushnik",
-    coin: 240,
+    coin: 124,
     images: [
       "/coins/noushnik_simsiz/img1.jpg",
       "/coins/noushnik_simsiz/img2.jpg",
@@ -445,13 +368,13 @@ export const gifts = [
   {
     id: 38,
     name: "Chip 64",
-    coin: 90,
+    coin: 147,
     images: ["/coins/chip64gb/img1.jpg", "/coins/chip64gb/img2.jpg"],
   },
   {
     id: 39,
     name: "Gaming Stul",
-    coin: 1300,
+    coin: 1000,
     images: [
       "/coins/gameng_stul/img1.jpg",
       "/coins/gameng_stul/img2.jpg",
@@ -462,7 +385,7 @@ export const gifts = [
   {
     id: 40,
     name: "Planshet",
-    coin: 1300,
+    coin:1999,
     images: [
       "/coins/planshet/img1.jpg",
       "/coins/planshet/img2.jpg",
@@ -471,9 +394,86 @@ export const gifts = [
     ],
   },
   {
+    id: 41,
+    name: "Shtativ",
+    coin: 130,
+    images: [
+      "/coins/shtativ/img1.jpg",
+      "/coins/shtativ/img2.jpg",
+      "/coins/shtativ/img3.jpg",
+      "/coins/shtativ/img4.jpg",
+    ],
+  },
+  {
+    id: 42,
+    name: "WiFi Adapter",
+    coin: 100,
+    images: [
+      "/coins/wifi_adapter/img1.jpg",
+      "/coins/wifi_adapter/img2.jpg",
+      "/coins/wifi_adapter/img3.jpg",
+      "/coins/wifi_adapter/img4.jpg",
+    ],
+  },
+  {
+    id: 43,
+    name: "Simsiz bluetooth, bo'yinbog'li",
+    coin: 150,
+    images: [
+      "/coins/noushnik_boyinbogli/img1.jpg",
+      "/coins/noushnik_boyinbogli/img2.jpg",
+      "/coins/noushnik_boyinbogli/img3.jpg",
+      "/coins/noushnik_boyinbogli/img4.jpg",
+    ],
+  },
+  {
+    id: 44,
+    name: "Porlovchi nakleyka",
+    coin: 105,
+    images: [
+      "/coins/porlovchi_nakleyka/img1.jpg",
+      "/coins/porlovchi_nakleyka/img2.jpg",
+      "/coins/porlovchi_nakleyka/img3.jpg",
+      "/coins/porlovchi_nakleyka/img4.jpg",
+    ],
+  },
+  {
+    id: 45,
+    name: "Simsiz katta karnay",
+    coin: 497,
+    images: [
+      "/coins/katta_karnay/img1.jpg",
+      "/coins/katta_karnay/img2.jpg",
+      "/coins/katta_karnay/img3.jpg",
+      "/coins/katta_karnay/img4.jpg",
+    ],
+  },
+  {
+    id: 46,
+    name: "Simsiz quloqchilar",
+    coin: 112,
+    images: [
+      "/coins/simsiz_quloqchin/img1.jpg",
+      "/coins/simsiz_quloqchin/img2.jpg",
+      "/coins/simsiz_quloqchin/img3.jpg",
+      "/coins/simsiz_quloqchin/img4.jpg",
+    ],
+  },
+  {
+    id: 47,
+    name: "Bluetooth kalonka",
+    coin: 242,
+    images: [
+      "/coins/protativ_kalonka/img1.jpg",
+      "/coins/protativ_kalonka/img2.jpg",
+      "/coins/protativ_kalonka/img3.jpg",
+      "/coins/protativ_kalonka/img4.jpg",
+    ],
+  },
+  {
     id: 48,
     name: "Nokia 2720",
-    coin: 1300,
+    coin: 800,
     images: [
       "/coins/nokia/img1.jpg",
       "/coins/nokia/img2.jpg",
@@ -484,7 +484,7 @@ export const gifts = [
   {
     id: 49,
     name: "Mini termal printer",
-    coin: 300,
+    coin: 547,
     images: [
       "/coins/mini_printer/img1.jpg",
       "/coins/mini_printer/img2.jpg",

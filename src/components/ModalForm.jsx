@@ -33,7 +33,9 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
       const waitTimeMs = FIVE_MINUTES - (now - lastSent);
       const minutes = Math.floor(waitTimeMs / 60000);
       const seconds = Math.floor((waitTimeMs % 60000) / 1000);
-      alert(`Iltimos, ${minutes} daqiqa ${seconds} soniyadan keyin qayta urinib ko‘ring.`);
+      alert(
+        `Iltimos, ${minutes} daqiqa ${seconds} soniyadan keyin qayta urinib ko‘ring.`
+      );
       return;
     }
 
@@ -42,10 +44,7 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
 
     // 🧾 Mahsulotlar ro‘yxatini tayyorlaymiz
     const productList = cart
-      .map(
-        (item, index) =>
-          `${index + 1}. ${item.name} — ${item.coin} coin`
-      )
+      .map((item, index) => `${index + 1}. ${item.name} — ${item.coin} coin`)
       .join("\n");
 
     const message =
@@ -58,11 +57,14 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
       `🌍 IP: ${clientIP}\n🕒 ${new Date().toLocaleString()}`;
 
     try {
-      const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_id: chatId, text: message }),
-      });
+      const res = await fetch(
+        `https://api.telegram.org/bot${token}/sendMessage`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_id: chatId, text: message }),
+        }
+      );
 
       if (res.ok) {
         alert("✅ Buyurtmangiz yuborildi! Tez orada siz bilan bog‘lanamiz.");
@@ -105,7 +107,10 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="fullName" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="fullName"
+                  className="block text-sm font-medium mb-1"
+                >
                   To‘liq ism
                 </label>
                 <input
@@ -120,7 +125,10 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-medium mb-1"
+                >
                   Telefon
                 </label>
                 <input
@@ -134,8 +142,31 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
                 />
               </div>
 
+              {/* <div>
+                <label
+                  htmlFor="phone"
+                  className="block text-sm font-medium mb-1"
+                >
+                  Mahsulot soni
+                </label>
+                <input
+                  id="num"
+                  name="num"
+                  value={formData.num}
+                  onChange={handleChange}
+                  type="number"
+                  required
+                  minLength={1}
+                  maxLength={9}
+                  className="w-full border rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-400 outline-none"
+                />
+              </div> */}
+
               <div>
-                <label htmlFor="description" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="description"
+                  className="block text-sm font-medium mb-1"
+                >
                   Izoh (ixtiyoriy)
                 </label>
                 <textarea
@@ -150,14 +181,19 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
 
               {/* --- Umumiy ma’lumotlar --- */}
               <div className="bg-gray-100 rounded-md p-3 text-sm">
-                <p className="font-semibold text-gray-700 mb-1">Tanlangan mahsulotlar:</p>
+                <p className="font-semibold text-gray-700 mb-1">
+                  Tanlangan mahsulotlar:
+                </p>
                 <ul className="list-disc pl-5 text-gray-600">
                   {cart.map((item, index) => (
-                    <li key={index}>{item.name} — {item.coin} coin</li>
+                    <li key={index}>
+                      {item.name} — {item.coin} coin
+                    </li>
                   ))}
                 </ul>
                 <p className="mt-2 font-semibold text-gray-800">
-                  💰 Umumiy: <span className="text-yellow-500">{totalCoins} coin</span>
+                  💰 Umumiy:{" "}
+                  <span className="text-yellow-500">{totalCoins} coin</span>
                 </p>
               </div>
 
@@ -175,12 +211,22 @@ const ModalForm = ({ cart = [], totalCoins = 0 }) => {
       {/* --- Animatsiyalar --- */}
       <style jsx>{`
         @keyframes fadeIn {
-          from { opacity: 0 }
-          to { opacity: 1 }
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
         }
         @keyframes slideUp {
-          from { transform: translateY(40px); opacity: 0 }
-          to { transform: translateY(0); opacity: 1 }
+          from {
+            transform: translateY(40px);
+            opacity: 0;
+          }
+          to {
+            transform: translateY(0);
+            opacity: 1;
+          }
         }
         .animate-fadeIn {
           animation: fadeIn 0.3s ease forwards;
